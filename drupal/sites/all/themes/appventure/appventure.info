@@ -1,0 +1,9 @@
+
+name = Appventure
+description = A responsive theme.
+package = Core
+version = VERSION
+core = 7.x
+
+
+
