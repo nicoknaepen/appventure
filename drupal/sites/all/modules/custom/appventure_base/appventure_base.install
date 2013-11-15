@@ -1,0 +1,66 @@
+<?php
+
+/**
+ * No action needed
+ */
+function appventure_base_update_7001() {
+  // no action needed
+}
+
+/**
+ * Enable panels, ctools, views and ds
+ */
+function appventure_base_update_7002() {
+  module_enable(
+    array(
+      'ctools', 
+      'features',
+      'strongarm',
+      'page_manager', 
+      'panels',
+      'panels_breadcrumbs',
+      'ds','ds_ui', 
+      'views', 'views_ui', 'views_content',
+      'views_bulk_operations',
+      'entity', 
+      'eu_cookie_compliance', 
+      'menu_block', 
+      'pathauto', 
+      'site_map', 
+      'site_verify',
+      'token',
+      'weight',
+      'admin',
+      'admin_tools',
+      'admin_menu',
+      'admin_menu_toolbar',
+      'admin_views',
+      'date',
+      'date_api',
+      'date_popup',
+      'devel',
+      'simplemeta',
+      'googleanalytics',
+      'references',
+      'node_reference',
+      'email',
+      'link',
+      'webform',
+      'xmlsitemap', 'xmlsitemap_engines', 'xmlsitemap_node', 'xmlsitemap_menu',
+    )
+  );
+}
+
+/**
+ * Disable modules
+ */
+function appventure_base_update_7003() {
+  module_disable(array('toolbar'));
+}
+
+/**
+ * Enable modules
+ */
+function appventure_base_update_7004() {
+  module_enable(array('admin_devel'));
+}

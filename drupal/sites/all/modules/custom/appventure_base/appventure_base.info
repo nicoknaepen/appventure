@@ -1,0 +1,4 @@
+name = "Appventure base"
+description = Appventure base module.
+core = 7.x
+package = Appventure
