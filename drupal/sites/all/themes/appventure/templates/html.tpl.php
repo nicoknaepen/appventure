@@ -63,7 +63,6 @@
   <!--[if lte IE 8]><script src="<?php print $theme_path?>js/html5shiv.js"></script><link rel="stylesheet" href="<?php print $theme_path?>css/ie8.css" /><![endif]-->
 </head>
 <body class="<?php print $classes; ?>" <?php print $attributes;?>>
-  <?php print $page_top; ?>
   <div id="header-wrapper">
           <div class="container">
                   <div class="row">
@@ -108,7 +107,9 @@
                   </div>
           </div>
   </div>
+  <?php print $page_top; ?>
   <?php print $page; ?>
+  <?php print $page_bottom; ?>
 <!-- Footer Wrapper -->
 			<div id="footer-wrapper">
 				
@@ -258,7 +259,6 @@
 					</section>
 				
 			</div>  
-  <?php print $page_bottom; ?>
 
 
 	  
