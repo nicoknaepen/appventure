@@ -69,5 +69,5 @@ function appventure_base_update_7004() {
  * Enable homepage feature
  */
 function appventure_base_update_7005() {
-  module_enable(array('appventure_homepage'));
+  module_enable(array('appventure_basic_page', 'appventure_article', 'appventure_portfolio', 'appventure_webform', 'appventure_homepage'));
 }

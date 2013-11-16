@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Appventure article feature.
+ */
+
+include_once 'appventure_article.features.inc';
