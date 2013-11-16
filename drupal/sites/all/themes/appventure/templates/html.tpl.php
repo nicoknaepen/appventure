@@ -51,7 +51,6 @@
   <?php print $styles; ?>
   <?php print $scripts; ?>
   <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,900,300italic" rel="stylesheet" />
-  <script src="<?php print $theme_path?>js/jquery.min.js"></script>
   <script src="<?php print $theme_path?>js/jquery.dropotron.min.js"></script>
   <script src="<?php print $theme_path?>js/config.js"></script>
   <script src="<?php print $theme_path?>js/skel.min.js"></script>
