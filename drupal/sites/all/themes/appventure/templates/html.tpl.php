@@ -62,7 +62,7 @@
   </noscript>
   <!--[if lte IE 8]><script src="<?php print $theme_path?>js/html5shiv.js"></script><link rel="stylesheet" href="<?php print $theme_path?>css/ie8.css" /><![endif]-->
 </head>
-<body class="homepage <?php print $classes; ?>" <?php print $attributes;?>>
+<body class="<?php print $classes; ?>" <?php print $attributes;?>>
   <div id="skip-link">
     <a href="#main-content" class="element-invisible element-focusable"><?php print t('Skip to main content'); ?></a>
   </div>
