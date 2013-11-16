@@ -22,7 +22,7 @@ window._skel_panels_config = {
 };
 
 jQuery(function() {
-	$('#nav > ul').dropotron({ 
+	jQuery('#nav > ul').dropotron({ 
 		offsetY: -17,
 		offsetX: -1,
 		mode: 'fade',
