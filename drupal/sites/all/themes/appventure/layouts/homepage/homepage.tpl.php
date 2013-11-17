@@ -47,7 +47,7 @@
                                                                                         <header>
                                                                                                 <h2>We can advice</h2>
                                                                                         </header>
-                                                                                        <p>And find a solution for your question concerning the internet.</p>
+                                                                                        <p>And find a solution for your question concerning online applications or websites.</p>
                                                                                 </section>
                                                                         </div>
                                                                         <div class="4u">
