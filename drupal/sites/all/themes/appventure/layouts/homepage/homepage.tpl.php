@@ -26,8 +26,8 @@
                                                         <a href="http://facebook.com/DreametryDoodle">
                                                                 <span class="image image-full"><img src="/sites/all/themes/appventure/images/climbing.png" alt="" /></span>
                                                                 <header>
-                                                                        <h2>Howdy. This is Dopetrope.</h2>
-                                                                        <span class="byline">A responsive template by HTML5 UP</span>
+                                                                        <h2>Are you in for an Appventure?</h2>
+                                                                        <span class="byline">or do you just need some appvice?</span>
                                                                 </header>
                                                         </a>
                                                 </section>
@@ -36,7 +36,6 @@
                         </div>
                         <div class="row">
                                 <div class="12u">
-<?php print $content['content']; ?>
                                         <!-- Intro -->
                                                 <section id="intro">
 
@@ -46,27 +45,27 @@
                                                                                 <section class="first">
                                                                                         <span class="pennant"><span class="fa fa-cog"></span></span>
                                                                                         <header>
-                                                                                                <h2>Ipsum consequat</h2>
+                                                                                                <h2>We can advice</h2>
                                                                                         </header>
-                                                                                        <p>Nisl amet dolor sit ipsum veroeros sed blandit consequat veroeros et magna tempus.</p>
+                                                                                        <p>And find a solution for your question concerning the internet.</p>
                                                                                 </section>
                                                                         </div>
                                                                         <div class="4u">
                                                                                 <section class="middle">
                                                                                         <span class="pennant pennant-alt"><span class="fa fa-flash"></span></span>
                                                                                         <header>
-                                                                                                <h2>Magna etiam dolor</h2>
+                                                                                                <h2>We can build</h2>
                                                                                         </header>
-                                                                                        <p>Nisl amet dolor sit ipsum veroeros sed blandit consequat veroeros et magna tempus.</p>
+                                                                                        <p>Especially Drupal based websites including all the specifications you need.</p>
                                                                                 </section>
                                                                         </div>
                                                                         <div class="4u">
                                                                                 <section class="last">
                                                                                         <span class="pennant pennant-alt2"><span class="fa fa-star"></span></span>
                                                                                         <header>
-                                                                                                <h2>Tempus adipiscing</h2>
+                                                                                                <h2>We can manage</h2>
                                                                                         </header>
-                                                                                        <p>Nisl amet dolor sit ipsum veroeros sed blandit consequat veroeros et magna tempus.</p>
+                                                                                        <p>Your online projects and steer a team of designers and developers.</p>
                                                                                 </section>
                                                                         </div>
                                                                 </div>
@@ -87,6 +86,12 @@
 <!-- Main Wrapper -->
         <div id="main-wrapper">
                 <div class="container">
+                  <div class="row">
+                    <div class="12u">
+                      <?php print $content['content']; ?>
+
+                    </div>
+                  </div>
                         <div class="row">
                                 <div class="12u">
 
