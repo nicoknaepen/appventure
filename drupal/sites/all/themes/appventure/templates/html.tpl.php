@@ -63,204 +63,144 @@
   <!--[if lte IE 8]><script src="<?php print $theme_path?>js/html5shiv.js"></script><link rel="stylesheet" href="<?php print $theme_path?>css/ie8.css" /><![endif]-->
 </head>
 <body class="<?php print $classes; ?>" <?php print $attributes;?>>
-  <div id="header-wrapper">
-          <div class="container">
-                  <div class="row">
-                          <div class="12u">
 
-                                  <!-- Header -->
-                                          <section id="header">
-
-                                                  <!-- Logo -->
-                                                          <h1><a href="#">Dopetrope</a></h1>
-
-                                                  <!-- Nav -->
-                                                          <nav id="nav">
-                                                                  <ul>
-                                                                          <li class="current_page_item"><a href="index.html">Home</a></li>
-                                                                          <li>
-                                                                                  <a href="">Dropdown</a>
-                                                                                  <ul>
-                                                                                          <li><a href="#">Lorem ipsum dolor</a></li>
-                                                                                          <li><a href="#">Magna phasellus</a></li>
-                                                                                          <li><a href="#">Etiam dolore nisl</a></li>
-                                                                                          <li>
-                                                                                                  <a href="">Phasellus consequat</a>
-                                                                                                  <ul>
-                                                                                                          <li><a href="#">Magna phasellus</a></li>
-                                                                                                          <li><a href="#">Etiam dolore nisl</a></li>
-                                                                                                          <li><a href="#">Veroeros feugiat</a></li>
-                                                                                                  </ul>
-                                                                                          </li>
-                                                                                          <li><a href="#">Veroeros feugiat</a></li>
-                                                                                  </ul>
-                                                                          </li>
-                                                                          <li><a href="right-sidebar.html">Right Sidebar</a></li>
-                                                                          <li><a href="left-sidebar.html">Left Sidebar</a></li>
-                                                                          <li><a href="no-sidebar.html">No Sidebar</a></li>
-                                                                  </ul>
-                                                          </nav>
-
-                                          </section>
-
-                          </div>
-                  </div>
-          </div>
-  </div>
   <?php print $page_top; ?>
   <?php print $page; ?>
   <?php print $page_bottom; ?>
-<!-- Footer Wrapper -->
-			<div id="footer-wrapper">
-				
-				<!-- Footer -->
-					<section id="footer" class="container">
-						<div class="row">
-							<div class="8u">
-
-								<section>
-									<header>
-										<h2>Blandit nisl adipiscing</h2>
-									</header>
-									<ul class="dates">
-										<li>
-											<span class="date">Jan <strong>27</strong></span>
-											<h3><a href="#">Lorem dolor sit amet veroeros</a></h3>
-											<p>Ipsum dolor sit amet veroeros consequat blandit ipsum phasellus lorem consequat etiam.</p>
-										</li>
-										<li>
-											<span class="date">Jan <strong>23</strong></span>
-											<h3><a href="#">Ipsum sed blandit nisl consequat</a></h3>
-											<p>Blandit phasellus lorem ipsum dolor tempor sapien tortor hendrerit adipiscing feugiat lorem.</p>
-										</li>
-										<li>
-											<span class="date">Jan <strong>15</strong></span>
-											<h3><a href="#">Magna tempus lorem feugiat</a></h3>
-											<p>Dolore consequat sed phasellus lorem sed etiam nullam dolor etiam sed amet sit consequat.</p>
-										</li>
-										<li>
-											<span class="date">Jan <strong>12</strong></span>
-											<h3><a href="#">Dolore tempus ipsum feugiat nulla</a></h3>
-											<p>Feugiat lorem dolor sed nullam tempus lorem ipsum dolor sit amet nullam consequat.</p>
-										</li>
-										<li>
-											<span class="date">Jan <strong>10</strong></span>
-											<h3><a href="#">Blandit tempus aliquam?</a></h3>
-											<p>Feugiat sed tempus blandit tempus adipiscing nisl lorem ipsum dolor sit amet dolore.</p>
-										</li>
-									</ul>
-								</section>
-							
-							</div>
-							<div class="4u">
-							
-								<section>
-									<header>
-										<h2>What's this all about?</h2>
-									</header>
-									<a href="http://facebook.com/DreametryDoodle" class="image image-full"><img src="images/pic10.jpg" alt="" /></a>
-									<p>
-										This is <a href="http://html5up.net/dopetrope/">Dopetrope</a> a free, fully responsive HTML5 site template by 
-										<a href="http://n33.co">AJ</a> for <a href="http://html5up.net/">HTML5 UP</a> It's released for free under
-										the <a href="http://html5up.net/license/">CCA</a> license so feel free to use it for any personal or commercial project &ndash;
-										just don't forget to credit us! <strong>PS:</strong> The awesome placeholder artwork used in this design is courtesy of <a href="http://facebook.com/DreametryDoodle/">Dreametry Doodle</a>.
-									</p>
-									<footer>
-										<a href="#" class="button">Find out more</a>
-									</footer>
-								</section>
-							
-							</div>
-						</div>
-						<div class="row">
-							<div class="4u">
-
-								<section>
-									<header>
-										<h2>Tempus consequat</h2>
-									</header>
-									<ul class="divided">
-										<li><a href="#">Lorem ipsum dolor sit amet sit veroeros</a></li>
-										<li><a href="#">Sed et blandit consequat sed tlorem blandit</a></li>
-										<li><a href="#">Adipiscing feugiat phasellus sed tempus</a></li>
-										<li><a href="#">Hendrerit tortor vitae mattis tempor sapien</a></li>
-										<li><a href="#">Sem feugiat sapien id suscipit magna felis nec</a></li>
-										<li><a href="#">Elit class aptent taciti sociosqu ad litora</a></li>
-									</ul>
-								</section>
-
-							</div>
-							<div class="4u">
-
-								<section>
-									<header>
-										<h2>Ipsum et phasellus</h2>
-									</header>
-									<ul class="divided">
-										<li><a href="#">Lorem ipsum dolor sit amet sit veroeros</a></li>
-										<li><a href="#">Sed et blandit consequat sed tlorem blandit</a></li>
-										<li><a href="#">Adipiscing feugiat phasellus sed tempus</a></li>
-										<li><a href="#">Hendrerit tortor vitae mattis tempor sapien</a></li>
-										<li><a href="#">Sem feugiat sapien id suscipit magna felis nec</a></li>
-										<li><a href="#">Elit class aptent taciti sociosqu ad litora</a></li>
-									</ul>
-								</section>
-
-							</div>
-							<div class="4u">
-							
-								<section>
-									<header>
-										<h2>Appventurous social links</h2>
-									</header>
-									<ul class="social">
-										<li><a class="fa fa-facebook solo" href="http://www.facebook.com/nico.knaepen" target="_blank"><span>Facebook</span></a></li>
-										<li><a class="fa fa-twitter solo" href="https://twitter.com/nicoknaepen" target="_blank"><span>Twitter</span></a></li>
-										<!--<li><a class="fa fa-dribbble solo" href="http://dribbble.com/n33" target="_blank"><span>Dribbble</span></a></li>-->
-										<li><a class="fa fa-linkedin solo" href="http://www.linkedin.com/in/nicoknaepen" target="_blank"><span>LinkedIn</span></a></li>
-										<!--<li><a class="fa fa-google-plus solo" href="#"><span>Google+</span></a></li>-->
-									</ul>
-									<ul class="contact">
-										<li>
-											<h3>Address</h3>
-											<p>
-												Ovelingenstraat 4<br />
-												3800 Sint-Truiden<br />
-												Belgium
-											</p>
-										</li>
-										<li>
-											<h3>Mail</h3>
-											<p><a href="mailto:nico@appventure.be">nico@appventure.be</a></p>
-										</li>
-										<li>
-											<h3>Phone</h3>
-											<p>+32(0)496/50 09 93</p>
-										</li>
-									</ul>
-								</section>
-							
-							</div>
-						</div>
-						<div class="row">
-							<div class="12u">
-							
-								<!-- Copyright -->
-									<div id="copyright">
-										<ul class="links">
-											<li>&copy; <?php print Date('Y')?> Appventure</li>
-											<li>About: <a href="http://about.me/nicoknaepen" target="_blank">The Appventurer</a></li>
-											<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-										</ul>
-									</div>
-
-							</div>
-						</div>
-					</section>
-				
-			</div>  
-
-
-	  
+  <!-- Footer Wrapper -->
+  <div id="footer-wrapper">
+    <!-- Footer -->
+    <section id="footer" class="container">
+      <div class="row">
+        <div class="8u">
+          <section>
+            <header>
+              <h2>Blandit nisl adipiscing</h2>
+            </header>
+            <ul class="dates">
+              <li>
+                <span class="date">Jan <strong>27</strong></span>
+                <h3><a href="#">Lorem dolor sit amet veroeros</a></h3>
+                <p>Ipsum dolor sit amet veroeros consequat blandit ipsum phasellus lorem consequat etiam.</p>
+              </li>
+              <li>
+                <span class="date">Jan <strong>23</strong></span>
+                <h3><a href="#">Ipsum sed blandit nisl consequat</a></h3>
+                <p>Blandit phasellus lorem ipsum dolor tempor sapien tortor hendrerit adipiscing feugiat lorem.</p>
+              </li>
+              <li>
+                <span class="date">Jan <strong>15</strong></span>
+                <h3><a href="#">Magna tempus lorem feugiat</a></h3>
+                <p>Dolore consequat sed phasellus lorem sed etiam nullam dolor etiam sed amet sit consequat.</p>
+              </li>
+              <li>
+                <span class="date">Jan <strong>12</strong></span>
+                <h3><a href="#">Dolore tempus ipsum feugiat nulla</a></h3>
+                <p>Feugiat lorem dolor sed nullam tempus lorem ipsum dolor sit amet nullam consequat.</p>
+              </li>
+              <li>
+                <span class="date">Jan <strong>10</strong></span>
+                <h3><a href="#">Blandit tempus aliquam?</a></h3>
+                <p>Feugiat sed tempus blandit tempus adipiscing nisl lorem ipsum dolor sit amet dolore.</p>
+              </li>
+            </ul>
+          </section>
+        </div>
+        <div class="4u">
+          <section>
+            <header>
+              <h2>What's this all about?</h2>
+            </header>
+            <a href="http://facebook.com/DreametryDoodle" class="image image-full"><img src="images/pic10.jpg" alt="" /></a>
+            <p>
+              This is <a href="http://html5up.net/dopetrope/">Dopetrope</a> a free, fully responsive HTML5 site template by 
+              <a href="http://n33.co">AJ</a> for <a href="http://html5up.net/">HTML5 UP</a> It's released for free under
+              the <a href="http://html5up.net/license/">CCA</a> license so feel free to use it for any personal or commercial project &ndash;
+              just don't forget to credit us! <strong>PS:</strong> The awesome placeholder artwork used in this design is courtesy of <a href="http://facebook.com/DreametryDoodle/">Dreametry Doodle</a>.
+            </p>
+            <footer>
+              <a href="#" class="button">Find out more</a>
+            </footer>
+          </section>
+        </div>
+      </div>
+      <div class="row">
+        <div class="4u">
+          <section>
+            <header>
+              <h2>Tempus consequat</h2>
+            </header>
+            <ul class="divided">
+              <li><a href="#">Lorem ipsum dolor sit amet sit veroeros</a></li>
+              <li><a href="#">Sed et blandit consequat sed tlorem blandit</a></li>
+              <li><a href="#">Adipiscing feugiat phasellus sed tempus</a></li>
+              <li><a href="#">Hendrerit tortor vitae mattis tempor sapien</a></li>
+              <li><a href="#">Sem feugiat sapien id suscipit magna felis nec</a></li>
+              <li><a href="#">Elit class aptent taciti sociosqu ad litora</a></li>
+            </ul>
+          </section>
+        </div>
+        <div class="4u">
+          <section>
+            <header>
+              <h2>Ipsum et phasellus</h2>
+            </header>
+            <ul class="divided">
+              <li><a href="#">Lorem ipsum dolor sit amet sit veroeros</a></li>
+              <li><a href="#">Sed et blandit consequat sed tlorem blandit</a></li>
+              <li><a href="#">Adipiscing feugiat phasellus sed tempus</a></li>
+              <li><a href="#">Hendrerit tortor vitae mattis tempor sapien</a></li>
+              <li><a href="#">Sem feugiat sapien id suscipit magna felis nec</a></li>
+              <li><a href="#">Elit class aptent taciti sociosqu ad litora</a></li>
+            </ul>
+          </section>
+        </div>
+        <div class="4u">
+          <section>
+            <header>
+              <h2>Appventurous social links</h2>
+            </header>
+            <ul class="social">
+              <li><a class="fa fa-facebook solo" href="http://www.facebook.com/nico.knaepen" target="_blank"><span>Facebook</span></a></li>
+              <li><a class="fa fa-twitter solo" href="https://twitter.com/nicoknaepen" target="_blank"><span>Twitter</span></a></li>
+              <!--<li><a class="fa fa-dribbble solo" href="http://dribbble.com/n33" target="_blank"><span>Dribbble</span></a></li>-->
+              <li><a class="fa fa-linkedin solo" href="http://www.linkedin.com/in/nicoknaepen" target="_blank"><span>LinkedIn</span></a></li>
+              <!--<li><a class="fa fa-google-plus solo" href="#"><span>Google+</span></a></li>-->
+            </ul>
+            <ul class="contact">
+              <li>
+                <h3>Address</h3>
+                <p>
+                  Ovelingenstraat 4<br />
+                  3800 Sint-Truiden<br />
+                  Belgium
+                </p>
+              </li>
+              <li>
+                <h3>Mail</h3>
+                <p><a href="mailto:nico@appventure.be">nico@appventure.be</a></p>
+              </li>
+              <li>
+                <h3>Phone</h3>
+                <p>+32(0)496/50 09 93</p>
+              </li>
+            </ul>
+          </section>
+        </div>
+      </div>
+      <div class="row">
+        <div class="12u">
+          <!-- Copyright -->
+          <div id="copyright">
+            <ul class="links">
+              <li>&copy; <?php print Date('Y')?> Appventure</li>
+              <li>About: <a href="http://about.me/nicoknaepen" target="_blank">The Appventurer</a></li>
+              <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
 </body>
 </html>

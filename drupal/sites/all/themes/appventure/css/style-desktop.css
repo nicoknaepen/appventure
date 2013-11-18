@@ -272,11 +272,13 @@
 				background: #f3f3f3;
 			}
 			
-		#nav > ul > li.current_page_item
+		#nav > ul > li.current_page_item,
+		#nav > ul > li.active
 		{
 		}
 		
-			#nav > ul > li.current_page_item > a
+			#nav > ul > li.current_page_item > a,
+			#nav > ul > li.active > a
 			{
 				background: #75a7c8;
 				color: #fff !important;
