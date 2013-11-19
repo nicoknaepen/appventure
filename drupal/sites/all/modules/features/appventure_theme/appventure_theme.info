@@ -1,0 +1,10 @@
+name = Appventure theme
+core = 7.x
+package = Appventure
+dependencies[] = image
+features[features_api][] = api:2
+features[image][] = 12u
+features[image][] = 4u
+features[image][] = 4u_small
+features[image][] = 6u
+features[image][] = 8u
