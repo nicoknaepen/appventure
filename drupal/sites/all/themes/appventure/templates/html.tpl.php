@@ -169,14 +169,6 @@
             </ul>
             <ul class="contact">
               <li>
-                <h3>Address</h3>
-                <p>
-                  Ovelingenstraat 4<br />
-                  3800 Sint-Truiden<br />
-                  Belgium
-                </p>
-              </li>
-              <li>
                 <h3>Mail</h3>
                 <p><a href="mailto:nico@appventure.be">nico@appventure.be</a></p>
               </li>

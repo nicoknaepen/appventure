@@ -19,7 +19,7 @@ function appventure_base_update_7002() {
       'page_manager', 
       'panels',
       'panels_breadcrumbs',
-      'ds','ds_ui', 
+      'ds','ds_ui', 'ds_extras',
       'views', 'views_ui', 'views_content',
       'views_bulk_operations',
       'entity', 
