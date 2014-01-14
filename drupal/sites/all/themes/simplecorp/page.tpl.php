@@ -18,15 +18,13 @@
                     <!-- #social-icons -->
                     <div id="social-icons" class="clearfix">
                         <ul id="social-links">
-                            <li class="facebook-link"><a href="https://www.facebook.com/morethan.just.themes" class="facebook" id="social-01" title="Join Us on Facebook!">Facebook</a></li>
-                            <li class="twitter-link"><a href="https://twitter.com/morethanthemes" class="twitter" id="social-02" title="Follow Us on Twitter">Twitter</a></li>
-                            <li class="google-link"><a href="#" id="social-03" title="Google" class="google">Google</a></li>
-                            <li class="dribbble-link"><a href="#" id="social-04" title="Dribble" class="dribbble">Dribble</a></li>
-                            <li class="vimeo-link"><a href="#" id="social-05" title="Vimeo" class="vimeo">Vimeo</a></li>
-                            <li class="skype-link"><a href="#" id="social-06" title="Skype" class="skype">Skype</a></li>
-                            <li class="linkedin-link"><a href="#" id="social-07" title="Linkedin" class="linkedin">Linkedin</a></li>
-                            <li class="pinterest-link"><a href="#" id="social-09" title="Pinterest" class="pinterest">Pinterest</a></li>
-                            <li class="rss-link"><a href="#" id="social-08" title="RSS" class="rss">RSS Feeds</a></li>
+                            <li class="facebook-link"><a target="_blank" href="https://www.facebook.com/nico.knaepen" class="facebook" id="social-01" title="Join US on Facebook!">Facebook</a></li>
+                            <li class="twitter-link"><a target="_blank" href="https://twitter.com/nicoknaepen" class="twitter" id="social-02" title="Follow Us on Twitter">Twitter</a></li>
+                            <li class="google-link"><a target="_blank" href="https://plus.google.com/u/0/105043693377874453503" id="social-03" title="Google" class="google">Google</a></li>
+                            <li class="skype-link"><a target="_blank" href=" skype:nico.knaepen" id="social-06" title="Skype" class="skype">Skype</a></li>
+                            <li class="linkedin-link"><a target="_blank" href="http://be.linkedin.com/in/nicoknaepen/" id="social-07" title="Linkedin" class="linkedin">Linkedin</a></li>
+                            <li class="pinterest-link"><a target="_blank" href="http://www.pinterest.com/nicoknaepen/" id="social-09" title="Pinterest" class="pinterest">Pinterest</a></li>
+                            <!--<li class="rss-link"><a target="_blank" href="/rss.xml" id="social-08" title="RSS" class="rss">RSS Feeds</a></li>-->
                         </ul>
                     </div>
                     <!-- EOF: #social-icons -->
@@ -572,7 +570,7 @@
                     <?php endif; ?>
                     
                     <div class="credits">
-                    Ported to Drupal by <a href="http://www.drupalizing.com">Drupalizing</a> a Project of <a href="http://www.morethanthemes.com">More than Themes</a>. Designed by <a href="http://www.s5themes.com/">Site5 WordPress Themes</a>. 
+                      &copy; <?php print Date('Y')?> - Appventure
                     </div>
 
                 </div>
