@@ -570,7 +570,7 @@
                     <?php endif; ?>
                     
                     <div class="credits">
-                      &copy; <?php print Date('Y')?> - Appventure
+                      <a href="http://www.appventure.be">&copy; <?php print Date('Y')?> Appventure</a> - <a href="mailto:nico@appventure.be">E-mail</a>
                     </div>
 
                 </div>

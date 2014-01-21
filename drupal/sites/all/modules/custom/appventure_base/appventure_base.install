@@ -47,27 +47,9 @@ function appventure_base_update_7002() {
       'link',
       'webform',
       'xmlsitemap', 'xmlsitemap_engines', 'xmlsitemap_node', 'xmlsitemap_menu',
+      'admin_devel'
     )
   );
-}
-
-/**
- * Disable modules
- */
-function appventure_base_update_7003() {
   module_disable(array('toolbar'));
-}
-
-/**
- * Enable modules
- */
-function appventure_base_update_7004() {
-  module_enable(array('admin_devel'));
-}
-
-/**
- * Enable homepage feature
- */
-function appventure_base_update_7005() {
-  module_enable(array('appventure_basic_page', 'appventure_article', 'appventure_portfolio', 'appventure_webform', 'appventure_homepage', 'appventure_theme'));
+//  module_enable(array('appventure_basic_page', 'appventure_article', 'appventure_portfolio', 'appventure_webform', 'appventure_homepage', 'appventure_theme'));
 }
