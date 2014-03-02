@@ -1,7 +1,0 @@
-<?php
-/**
- * @file
- * Code for the Appventure Basic page feature.
- */
-
-include_once 'appventure_basic_page.features.inc';
