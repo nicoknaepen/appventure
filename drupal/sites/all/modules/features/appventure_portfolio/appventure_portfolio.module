@@ -1,7 +1,0 @@
-<?php
-/**
- * @file
- * Code for the Appventure Portfolio feature.
- */
-
-include_once 'appventure_portfolio.features.inc';

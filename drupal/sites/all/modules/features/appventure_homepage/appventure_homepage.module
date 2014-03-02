@@ -1,7 +1,0 @@
-<?php
-/**
- * @file
- * Code for the Appventure homepage feature.
- */
-
-include_once 'appventure_homepage.features.inc';

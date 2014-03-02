@@ -4,29 +4,22 @@
  * No action needed
  */
 function appventure_base_update_7001() {
-  // no action needed
-}
-
-/**
- * Enable panels, ctools, views and ds
- */
-function appventure_base_update_7002() {
-  module_enable(
+    module_enable(
     array(
-      'ctools', 
+      'ctools',
       'features',
       'strongarm',
-      'page_manager', 
+      'page_manager',
       'panels',
       'panels_breadcrumbs',
       'ds','ds_ui', 'ds_extras',
       'views', 'views_ui', 'views_content',
       'views_bulk_operations',
-      'entity', 
-      'eu_cookie_compliance', 
-      'menu_block', 
-      'pathauto', 
-      'site_map', 
+      'entity',
+      'eu_cookie_compliance',
+      'menu_block',
+      'pathauto',
+      'site_map',
       'site_verify',
       'token',
       'weight',
@@ -51,5 +44,50 @@ function appventure_base_update_7002() {
     )
   );
   module_disable(array('toolbar'));
-//  module_enable(array('appventure_basic_page', 'appventure_article', 'appventure_portfolio', 'appventure_webform', 'appventure_homepage', 'appventure_theme'));
+}
+/**
+* Enable all base modules
+*/
+function appventure_base_update_7002() {
+    module_enable(
+    array(
+      'ctools',
+      'features',
+      'strongarm',
+      'page_manager',
+      'panels',
+      'panels_breadcrumbs',
+      'ds','ds_ui', 'ds_extras',
+      'views', 'views_ui', 'views_content',
+      'views_bulk_operations',
+      'entity',
+      'eu_cookie_compliance',
+      'menu_block',
+      'pathauto',
+      'site_map',
+      'site_verify',
+      'token',
+      'weight',
+      'admin',
+      'admin_tools',
+      'admin_menu',
+      'admin_menu_toolbar',
+      'admin_views',
+      'date',
+      'date_api',
+      'date_popup',
+      'devel',
+      'simplemeta',
+      'googleanalytics',
+      'references',
+      'node_reference',
+      'email',
+      'link',
+      'webform',
+      'xmlsitemap', 'xmlsitemap_engines', 'xmlsitemap_node', 'xmlsitemap_menu',
+      'admin_devel',
+      'masonry','masonry_views'
+    )
+  );
+  module_disable(array('toolbar'));
 }
